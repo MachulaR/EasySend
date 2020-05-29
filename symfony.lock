@@ -81,6 +81,9 @@
     "egulias/email-validator": {
         "version": "2.1.17"
     },
+    "moneyphp/money": {
+        "version": "v3.3.1"
+    },
     "monolog/monolog": {
         "version": "1.25.4"
     },

@@ -1,0 +1,6 @@
+{% block body %}
+    {% embed "table.html.twig" %}{% endembed %}
+    {{ form_start(form) }}
+    {{ form_widget(form.cars, {'attr': {'value':json }}) }}
+    {{ form_end(form) }}
+{% endblock %}
